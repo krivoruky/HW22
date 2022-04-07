@@ -1,0 +1,40 @@
+/* Main Styles */
+
+form 
+	height: 220px
+	display: flex
+	justify-content: center
+	align-items: center
+	width: 428px
+	background-color: $background
+
+
+	.generator_form_card
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		align-items: center
+		width: 279px
+
+	.add_button
+		@include mix-button
+	
+	.generator_form_card_add_card
+		padding: 4.5px
+
+	.generator_form_card_add_card>input
+		width: 279px
+		height: 41px
+		cursor: text
+		background-color: $word-color
+		border: none
+		outline: 0
+		outline-offset: 0
+		padding-left: 25px
+		border: 1px solid $dark-font-color
+		font-family: 'Inter', sans-serif
+
+	.generator_form_card_add_card p 
+		color: $dark-font-color
+
+	
